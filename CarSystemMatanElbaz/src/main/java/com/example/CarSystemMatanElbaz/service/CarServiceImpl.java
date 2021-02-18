@@ -64,7 +64,7 @@ public class CarServiceImpl implements CarService {
             }
 
             car.setEditDate(LocalDate.now());
-            System.out.println(car.is4x4());
+            System.out.println(car.isSuv());
             return carRepository.save(car);
         }
         throw new CannotCreateException(String.format("Cannot create an empty Car"));

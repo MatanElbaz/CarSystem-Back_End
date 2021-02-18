@@ -14,8 +14,8 @@ public class Car {
 
     private int carType;
 
-    @Column(name = "4x4")
-    private boolean is4x4;
+
+    private boolean suv;
 
     private int engineCapacity;
 
@@ -60,12 +60,12 @@ public class Car {
         this.carType = carType;
     }
 
-    public boolean is4x4() {
-        return is4x4;
+    public boolean isSuv() {
+        return suv;
     }
 
-    public void set4x4(boolean SUV) {
-        this.is4x4 = SUV;
+    public void setSuv(boolean SUV) {
+        this.suv = SUV;
     }
 
     public int getEngineCapacity() {
