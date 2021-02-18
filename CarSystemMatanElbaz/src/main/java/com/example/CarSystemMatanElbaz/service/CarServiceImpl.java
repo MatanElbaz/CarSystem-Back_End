@@ -73,8 +73,8 @@ public class CarServiceImpl implements CarService {
     @Override
     public Car updateCar(long carId, Car car) throws CarDoestExistsException {
         Optional<Car> carById = carRepository.findById(carId);
-        if (!carById.isPresent()){
-            throw  new CarDoestExistsException(String.format("Car with id %d does not exists.", carId));
+        if (!carById.isPresent()) {
+            throw new CarDoestExistsException(String.format("Car with id %d does not exists.", carId));
         }
         car.setCarId(carId);
         car.setEditDate(LocalDate.now());

@@ -14,7 +14,6 @@ public class Car {
 
     private int carType;
 
-
     private boolean suv;
 
     private int engineCapacity;
