@@ -21,6 +21,7 @@ public class CarController {
         this.carService = carService;
     }
 
+
     @GetMapping("/car/{id}")
     public ResponseEntity<Car> findCarById(@PathVariable long id)
             throws CarDoestExistsException {
