@@ -1,8 +1,8 @@
 Welcome to CarSystem ! 
 <br>
-Full-Stack application that allows you to manage, insert / edit and retrieve data.
+Full-Stack application that allows you to manage car system.
 <br>
-This system has a server-side which is created with Java Sprin-Boot, 
+This application has a server-side which is created with Java Sprin-Boot, 
 <br> 
 and a client side which is created with Angular.
 <br>
