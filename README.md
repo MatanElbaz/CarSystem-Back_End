@@ -1,6 +1,6 @@
 Welcome to CarSystem ! 
 <br>
-Full-Stack application that allows you to manage car system.
+Full-Stack application that allows you to manage a car system.
 <br>
 This application has a server-side which is created with Java Sprin-Boot, 
 <br> 
