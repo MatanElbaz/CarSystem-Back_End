@@ -28,10 +28,6 @@ public class Car {
 
     private LocalDate editDate;
 
-//    @JoinColumn(name = "cartype_id")
-//    @OneToOne
-//    private CarType type;
-
 
     public Car() {
     }
@@ -120,12 +116,5 @@ public class Car {
     public void setEditDate(LocalDate editDate) {
         this.editDate = editDate;
     }
-//
-//    public CarType getType() {
-//        return type;
-//    }
-//
-//    public void setType(CarType type) {
-//        this.type = type;
-//    }
+
 }
